@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Contest App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="email_hint">Введите e-mail</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="note_text_view">Введите текст для создания записи</string>
+    <string name="note_add_button">Добавить новую запись</string>
+    <string name="note_title_text_view">Заголовок</string>
+    <string name="label_main_page">Список записей</string>
+    <string name="label_edit_note">Изменение записи</string>
+    <string name="label_add_note">Добавление записей</string>
+
+    <string name="button_sign_in">Войти</string>
+    <string name="name_of_record_row">Название записи</string>
+    <string name="date_of_record_note">Дата</string>
+</resources>

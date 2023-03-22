@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.EditNote">
+
+    <EditText
+        android:id="@+id/editNotContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/line"
+        android:gravity="top|start"
+        android:hint="@string/note_text_view"
+        android:paddingStart="3dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="3dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/titleEditNote"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/titleEditNote"
+        app:layout_constraintTop_toBottomOf="@id/titleEditNote"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/titleEditNote"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background='@drawable/line'
+        android:hint="@string/note_title_text_view"
+        android:maxLength="25"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fltEditedUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/done" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fltDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/fltEditedUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

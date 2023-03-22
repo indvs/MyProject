@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "852128261943",
+    "project_id": "contestapp-e759f",
+    "storage_bucket": "contestapp-e759f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852128261943:android:c79d123d243caffce61cb2",
+        "android_client_info": {
+          "package_name": "com.study.contest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852128261943-onlug9s7nffebhqv1vfr8uttsdap8f1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz314XQGtPLUkRXYvnHNHKGkEBC2pHGZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852128261943-onlug9s7nffebhqv1vfr8uttsdap8f1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
